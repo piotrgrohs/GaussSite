@@ -7,7 +7,7 @@
 
   <title>Gauss site</title>
   <meta name="description" content="Gauss site">
-  <meta name="author" content="Piotr Grohs">
+  <meta name="author" content="Maja Wieszczek">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -51,7 +51,7 @@
   <div class="parallax "></div>
   <div class="container">
     <section id="info">
-      <div class="row mt-2">
+      <div class="row mt-4">
         <div class="col-sm">
           <h3>Ogólne informacje</h3>
           <p> Carl Friedrich Gauss
@@ -66,12 +66,12 @@
             zaczął mówić. Jego geniusz matematyczny objawił się stosunkowo
             wcześnie, w wieku 3 lat umiał dodawać. Uzdolnionym chłopcem
             zainteresował się książę Brunszwiku Karol Wilhelm, który postanowił
-            łożyć na jego dalszą naukę.
-            Gauss zdobywał wiedzę w takich miejscach jak:
-            - Collegium Carolinum w Brunszwiku
-            - Uniwersytet w Getyndze
-            - Uniwersytet w Helmsted
-            Uniwersytet w Helmstedt nadał mu tytuł
+            łożyć na jego dalszą naukę. </p>
+          <p>Gauss zdobywał wiedzę w takich miejscach jak: </p>
+          <p>- Collegium Carolinum w Brunszwiku </p>
+          <p>- Uniwersytet w Getyndze </p>
+          <p>- Uniwersytet w Helmsted </p>
+          <p>Uniwersytet w Helmstedt nadał mu tytuł
             doktora in absentia, bez
             zwyczajowego egzaminu ustnego, na którym przedstawił napisaną pod
             naciskiem swojego dobroczyńcy rozprawę doktorską. Wykazał w niej
@@ -92,10 +92,12 @@
             użyciu cyrkla i linijki. Udało mu się też pokazać, że wielokąt foremny
             daje się skonstruować przy pomocy cyrkla i linijki wtedy, gdy liczba
             jego boków da się przedstawić w postaci:
-            <img src="./img/math1.png" />
+            <img class="img-fluid" src="./img/math1.png" />
             są liczbami pierwszymi postaci, gdzie j jest liczbą naturalną.
-
-            Dzieła:
+          </p>
+          <p>
+            Dzieła:</p>
+          <p>
             W 1801 r. Gauss opublikował Disquisitiones arithmeticae (Badania
             arytmetyczne). W dziele tym opisał swoje odkrycia w dziedzinie
             teorii liczb, którą to cenił szczególnie i nazywał królową
@@ -142,7 +144,7 @@
             Fizyk podał również podstawowe elementy konstrukcji obrazu
             optycznego przy przechodzeniu światła przez układ soczewek.
           </p>
-          <img src="./img/math2.png" alt="Mathematics pattern">
+          <img class="img-fluid zoom" src="./img/math2.png" alt="Mathematics pattern">
         </div>
       </div>
     </section>
@@ -179,7 +181,34 @@
         </div>
       </div>
     </section>
-
+    <section>
+      <div class="row mt-2 mb-4">
+        <div class="col-sm">
+          <h3>Kalkulator</h3>
+          <div class="input-group">
+            <input type="text" class="form-control" id="firstDigit">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="">x</span>
+            </div>
+            <input type="text" class="form-control" id="secondDigit">
+            <div class="input-group-append">
+              <span class="input-group-text">=</span>
+              <span class="input-group-text" id="firstScore">0</span>
+              <span class="input-group-text" id="compareSign"> </span>
+            </div>
+            <input type="text" class="form-control" id="thirdDigit">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="">x</span>
+            </div>
+            <input type="text" class="form-control" id="fourDigit">
+            <div class="input-group-append">
+              <span class="input-group-text">=</span>
+              <span class="input-group-text" id="secondScore">0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
   </div>
   <footer class="page-footer font-small bg-dark">
@@ -187,7 +216,7 @@
     <div class="footer-copyright text-center py-3">© 2020 Copyright:
       <a class="text-white" href="#"> Maja Wieszczek</a>
     </div>
-  
+
   </footer>
 
   <script src="js/scripts.min.js"></script>
